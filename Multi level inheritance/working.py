@@ -1,15 +1,26 @@
-#multiple instances = When a child class is derived from more than one parent class
-
 class prey:
-    def flee():
-        print("This animals flees")
+    def flee(self):
+        print("This animal flees")
 
 class predator:
-    def hunts():
-        print("This animals hunts")
+    def hunts(self):
+        print("This animal hunts")
 
 class rabbit(prey):
     pass
 
 class hawk(predator):
     pass
+
+class fish(predator,prey):
+    pass
+
+
+rabbit = rabbit()
+hawk = hawk()
+fish = fish()
+
+rabbit.flee()
+hawk.hunts()
+fish.flee()
+fish.hunts()
