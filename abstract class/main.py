@@ -4,23 +4,23 @@
 #abstract class = a class which contains one or more abstract methods
 #abstract method = a method that has a declaration but does not have an implementation
 
-class Vehical:
-    def go(self):
-        pass
+from abc import ABC,abstractmethod
+
+
 
 class Car(Vehicle):
     def go(self):
         print("You drive the car ")
 
-class Mortorcycle(Vehical):
+class Mortorcycle(Vehicle):
     def go(self):
         print("You drive the mortorcycle ")
 
 
-vehical = Vehicle
 car = Car()
 mortorcycle = Mortorcycle()
 
-vehical.go()
+vehicle = Vehicle()
+vehicle.go()
 car.go()
 mortorcycle.go()
