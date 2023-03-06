@@ -18,7 +18,7 @@ class Chicken:
 class Person():
     def catch (self , duck):
         duck.walk
-        duck.talkuck.talk
+        duck.talk
         print("You caught an critter")
               
 duck = Duck()
