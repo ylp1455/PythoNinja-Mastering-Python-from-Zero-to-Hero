@@ -33,6 +33,6 @@ Contributions to this repository are welcome. If you find a bug or have an idea 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details
-![download](https://user-images.githubusercontent.com/115799462/229152187-4cff4065-6a7b-4831-88da-c4fc856bd89c.png)
+
 
 
