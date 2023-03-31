@@ -4,17 +4,18 @@
 
 usernames = ["Dude" , "John" , "wick"]
 password = ("p@ssword" , "abc123" , "guest")
+login_date = ["26/01/2001" , "4/11/2000" , "15/08/200"]
 
 
 # user = list(zip(usernames,password))
 
 
-user = dict(zip(usernames,password))
+user = zip(usernames,password,login_date)
 print(type(user))
       
 
-# for i in user:
-#     print (i)
-
-for key , value in user.items():
-    print(key + " : " + value)
+for i in user:
+    print(i)
+  
+# for key , value in user.items():
+#     print(key + " : " + value)
