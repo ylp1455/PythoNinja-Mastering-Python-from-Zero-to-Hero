@@ -25,3 +25,5 @@ button = Button(window,
                 image=photo,
                 compound='bottom')
 button.pack()
+
+window.mainloop()
