@@ -4,10 +4,10 @@ from tkinter import *
 
 window = Tk()
 
-photo = PhotoImage(file='penguin.png')
+photo = PhotoImage(file='images/penguin1.png')
 
 label = Label(window,
-              text="bro, do you even code?",
+              text="hello world",
               font=('Arial',40,'bold'),
               fg='#00FF00',
               bg='black',
