@@ -8,6 +8,10 @@ window = Tk() #instantiate an instance of a window
 window.geometry("420x420")
 window.title("ylp first gui ")
 
+icon = PhotoImage(file = 'images/logo.png' )
+window.iconphoto(True,icon)
+window.config(background="black")
+
 window.mainloop() #place windows on computer screen , listen for events
 
 
