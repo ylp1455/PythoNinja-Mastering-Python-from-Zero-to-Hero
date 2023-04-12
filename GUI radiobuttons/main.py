@@ -15,10 +15,10 @@ def order():
 
 window = Tk()
 
-pizzaImage = PhotoImage(file='pizza.png')
-hamburgerImage = PhotoImage(file='hamburger.png')
-hotdogImage = PhotoImage(file='hotdog.png')
-foodImages = [pizzaImage,hamburgerImage,hotdogImage]
+# pizzaImage = PhotoImage(file='pizza.png')
+# hamburgerImage = PhotoImage(file='hamburger.png')
+# hotdogImage = PhotoImage(file='hotdog.png')
+# foodImages = [pizzaImage,hamburgerImage,hotdogImage]
 
 x = IntVar()
 
@@ -29,7 +29,7 @@ for index in range(len(food)):
                               value=index, #assigns each radiobutton a different value
                               padx = 25, #adds padding on x-axis
                               font=("Impact",50),
-                              image = foodImages[index], #adds image to radiobutton
+                            #   image = foodImages[index], #adds image to radiobutton
                               compound = 'left', #adds image & text (left-side)
                               #indicatoron=0, #eliminate circle indicators
                               #width = 375, #sets width of radio buttons
