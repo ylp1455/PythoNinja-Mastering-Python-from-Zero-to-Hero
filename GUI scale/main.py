@@ -5,9 +5,9 @@ def submit():
 
 window = Tk()
 
-hotImage = PhotoImage(file='hot.png')
-hotLabel = Label(image=hotImage)
-hotLabel.pack()
+# hotImage = PhotoImage(file='hot.png')
+# hotLabel = Label(image=hotImage)
+# hotLabel.pack()
 
 scale = Scale(window,
               from_=100,
@@ -27,9 +27,9 @@ scale.set(((scale['from']-scale['to'])/2)+scale['to']) #set current value of sli
 
 scale.pack()
 
-coldImage = PhotoImage(file='cold.png')
-coldLabel = Label(image=coldImage)
-coldLabel.pack()
+# coldImage = PhotoImage(file='cold.png')
+# coldLabel = Label(image=coldImage)
+# coldLabel.pack()
 
 button = Button(window,text='submit',command=submit)
 button.pack()
