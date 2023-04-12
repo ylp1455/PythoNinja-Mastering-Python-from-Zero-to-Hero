@@ -10,7 +10,7 @@ window = Tk()
 
 x = IntVar()
 
-python_photo = PhotoImage(file='Python.png')
+# python_photo = PhotoImage(file='Python.png')
 
 check_button = Checkbutton(window,
                            text="I agree to something",
@@ -25,10 +25,9 @@ check_button = Checkbutton(window,
                            activebackground='black',
                            padx=25,
                            pady=10,
-                           image=python_photo,
+                        #    image=python_photo,
                            compound='left')
 check_button.pack()
 
 
 window.mainloop()
-s
