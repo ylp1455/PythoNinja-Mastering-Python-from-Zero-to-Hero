@@ -27,7 +27,7 @@ label = Label(window,image=myimage)
 label.place(x=0,y=0)
 
 window.mainloop()
-
+"""
 #-------------move images on canvas-------------
 
 from tkinter import *
@@ -55,3 +55,6 @@ photoimage = PhotoImage(file='racecar.png')
 myimage = canvas.create_image(0,0,image=photoimage,anchor=NW)
 
 window.mainloop()
+
+
+"""
