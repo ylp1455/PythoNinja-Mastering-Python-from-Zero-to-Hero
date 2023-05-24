@@ -20,9 +20,6 @@ The examples and projects in this repository are organized by topic and difficul
 - Object-oriented programming
 - Data structures and algorithms
 - GUI programming
-- Web development (Flask, Django, etc.)
-- Data science (NumPy, Pandas, Matplotlib, etc.)
-- Machine learning (Scikit-learn, TensorFlow, Keras, etc.)
 
 Each example or project has its own folder containing one or more Python files, as well as any necessary data files or documentation. To run an example or project, open the corresponding Python file in your Python IDE or editor and run it.
 
